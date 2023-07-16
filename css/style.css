@@ -13,11 +13,47 @@ body {
     
 }
 
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+.acadia-background {
+    background-image:url(../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 50%;
+    font-size: 1em;
+    color: #FFF;
+    
+}
+
+h1  {
+    color: #FFF;
+    padding-top: 50%;
+}
+ .acadia-background span {
+    font-size: 1.5em;
+    font-weight: 1500;
+    color: #8a3324;
+ }
+
+ footer {
+    left: 0;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    color: #FFF;
+    font-size: smaller;
+    text-align: center;
+}
+
 header {
     margin: 0;
     left: 0;
     right: 0;
-    
+    margin-top: 1em;
 }
 
 .navbar {
@@ -33,6 +69,8 @@ header {
 .brand-title {
     font-size: 1.5rem;
     margin: .5rem;
+    
+    
 }
 
 .navbar-links {
@@ -110,37 +148,7 @@ header {
         display: flex;
     } }
 
-header {
 
-    margin-top: 1em;
-}
-
-
-img {
-    max-width: 100%;
-    max-height: auto;
-}
-
-.acadia-background {
-    background-image:url(../img/background.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 50%;
-    font-size: 1em;
-    color: #FFF;
-    
-}
-
-h1  {
-    color: #FFF;
-    padding-top: 50%;
-}
- .acadia-background span {
-    font-size: 1.5em;
-    font-weight: 1500;
-    color: #8a3324;
- }
 
 
  
