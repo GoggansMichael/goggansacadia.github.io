@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial=scale=1">
+<title>Acadia Park Equipment</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo.png" alt="Acadia Logo" class="logo">
+    </header>
+    <nav id="main-menu">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+    
+    <input type="checkbox" id="hamburger-input" class="burger-shower"/>
+    <label id="hamburger-menu" for="hamburger-input">
+      <nav id="sidebar-menu">
+        <h3>Menu</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </label>
+
+      <main>
+       <div class="cart-modal-overlay">
+           <div class="cart-modal">
+             <i id="close-btn" class="fas fa-times"></i>
+               <h1 class="cart-is-empty">Cart is empty</h1>
+             
+               <div class="product-rows">
+               </div>
+               <div class="total">
+                 <h1 class="cart-total">TOTAL</h1>
+                   <span class="total-price">$0</span>
+                     <button class="purchase-btn">PURCHASE</button>
+               </div>
+             </div>
+       </div>
+            
+         <div class="cart-btn">
+           <i id="cart" class="fas fa-shopping-cart"></i>
+             <span class ="cart-quantity">0</span>
+         </div>
+         <div class="items-container">
+           <div class="card-1 card">
+             <img class="product-image" src="img/Boots.png" alt="Boots">
+               <button class="add-to-cart">Add to cart</button>
+                 <span class="product-price">$120</span>
+           </div>
+           <div class="card-2 card">
+             <img class="product-image" src="img/Backpacks.png" alt="Backpack">
+             <button class="add-to-cart">Add to cart</button>
+               <span class="product-price">$75</span>
+           </div>
+           <div class="card-3 card">
+             <img class="product-image" src="img/Drinkware.jpg" alt="Mug">
+               <button class="add-to-cart">Add to cart</button>
+                 <span class="product-price">$30</span>
+           </div>
+           <div class="card-4 card">
+             <img class="product-image" src="img/Jackets.jpg" alt="Jacket">
+                <button class="add-to-cart">Add to cart</button>
+               <span class="product-price">$140</span>
+           </div>
+           <div class="card-5 card">
+             <img class="product-image" src="img/Tents.jpg" alt="Tent">
+             <button class="add-to-cart">Add to cart</button>
+             <span class="product-price">$100</span>
+           </div>
+         </div>  
+      </div>  
+        </main>
+    <script src="js/cart.js"></script>
+    
+    
+
+    
+    
+    <footer>
+     <h3>Find us on social media @AcadiaParkEq</h3>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
